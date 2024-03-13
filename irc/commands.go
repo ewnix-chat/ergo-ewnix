@@ -152,10 +152,6 @@ func init() {
 			handler:   isonHandler,
 			minParams: 1,
 		},
-		"JOIN": {
-			handler:   joinHandler,
-			minParams: 1,
-		},
 		"KICK": {
 			handler:   kickHandler,
 			minParams: 2,
@@ -223,10 +219,6 @@ func init() {
 		},
 		"OPER": {
 			handler:   operHandler,
-			minParams: 1,
-		},
-		"PART": {
-			handler:   partHandler,
 			minParams: 1,
 		},
 		"PASS": {
